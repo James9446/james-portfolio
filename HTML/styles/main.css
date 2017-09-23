@@ -951,6 +951,35 @@ html[style*='margin-right'] .main-nav {
   margin: 0 0 10px;
 }
 
+/* ----==== Changing About image - Adding animation ===--- */
+.image-swap-container {
+  height: 300px;
+    width: 300px;
+}
+
+.image-swap {
+    background-repeat: no-repeat;
+    background-image: url("../images/james-shucking.jpg");
+    background-color: pink;
+    background-size: 300px 300px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    transform: none;
+    transition: transform 0.5s, background-image 1s;
+}
+
+.image-swap-container:hover {
+    cursor: pointer;
+}
+
+.image-swap-container:hover .image-swap {
+    background: url("../images/me-at-google.jpg");
+    background-size: 300px 300px;
+    transform: rotateY(360deg);
+}
+/* ----==== /End Changing About image - Adding animation ===--- */
+
 .social-nav {
   padding: 0;
   list-style: none;
