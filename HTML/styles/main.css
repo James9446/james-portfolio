@@ -951,7 +951,7 @@ html[style*='margin-right'] .main-nav {
   margin: 0 0 10px;
 }
 
-/* ----==== Changing About image - Adding animation ===--- */
+/* ----==== Changing 'About' image - Adding animation ===--- */
 .image-swap-container {
   height: 300px;
     width: 300px;
@@ -960,7 +960,6 @@ html[style*='margin-right'] .main-nav {
 .image-swap {
     background-repeat: no-repeat;
     background-image: url("../images/james-shucking.jpg");
-    background-color: pink;
     background-size: 300px 300px;
     border-radius: 50%;
     height: 300px;
@@ -978,7 +977,7 @@ html[style*='margin-right'] .main-nav {
     background-size: 300px 300px;
     transform: rotateY(360deg);
 }
-/* ----==== /End Changing About image - Adding animation ===--- */
+/* ----==== /End Changing 'About' image - Adding animation ===--- */
 
 .social-nav {
   padding: 0;
